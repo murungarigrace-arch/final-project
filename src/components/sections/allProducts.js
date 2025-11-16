@@ -45,16 +45,5 @@ export const allProducts = [
         name: "Chevrolet camaro",
         price: 75000000.00,
         imageUrl: "https://i.pinimg.com/736x/38/87/7a/38877adbdee85f62638eef618c065832.jpg",
-    },  {
-        id: 9,
-        name: "Audi A4",
-        price: 50000000.00,
-        imageUrl: "https://i.pinimg.com/736x/78/31/08/783108242c8ab01bf56c4e72ecfafb02.jpg",
-    },
-    {
-        id: 10,
-        name: "Mercedes glc",
-        price: 8500000.00,
-        imageUrl: "https://i.pinimg.com/736x/81/8e/54/818e54863a4a06f61e8f3f5f171e8011.jpg",
-    },
+    }, 
 ]      
