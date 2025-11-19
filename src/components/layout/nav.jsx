@@ -10,7 +10,7 @@ export const Nav = () => {
             <div className="w-9 h-9 bg-indigo-600 text-white rounded-md flex items-center justify-center font-semibold">
               ME
             </div>
-            <span className="text-lg font-semibold text-gray-800">MIDEA ELECTRONIS</span>
+            <span className="text-lg font-semibold text-gray-800">MIDEA ELECTRONICS</span>
           </a>
 
           <nav className="hidden md:flex md:items-center md:space-x-6">
