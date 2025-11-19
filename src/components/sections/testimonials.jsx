@@ -2,16 +2,16 @@ import React from 'react'
 
 export const Testimonials = () => {
   const testimonials = [
-    { name: 'Peter Mwangi', role: 'Manager', quote: 'Great selection and amazing customer service!' },
-    { name: 'John K.', role: 'Buyer', quote: 'Quality products at unbeatable prices.' },
-    { name: 'Lynn .A. S.', role: 'Test driver', quote: 'I find best car experience that my clients love.' },
+    { name: 'Solomon K.', role: 'Manager', quote: 'Great selection and amazing customer service!' },
+    { name: 'Christopher M.', role: 'Buyer', quote: 'Quality products at unbeatable prices.' },
+    { name: 'Sally A. S.', role: 'Supplier', quote: 'I find best gadgets that my clients love.' },
   ]
 
   return (
     <section className="py-12 bg-gray-50" aria-label="Customer testimonials">
       <div className="max-w-6xl mx-auto px-4">
-        <h2 className="text-2xl font-semibold text-center">What Our Customers Say</h2>
-        <p className="text-center text-gray-500 mt-1 mb-6">Real reviews from happy shoppers</p>
+        <h2 className="text-2xl font-semibold text-center">What Our Consumers Say</h2>
+        <p className="text-center text-gray-500 mt-1 mb-6">Real reviews from happy consumers</p>
 
         <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           {testimonials.map((t, i) => (

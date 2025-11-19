@@ -7,9 +7,9 @@ export const NewStock = () => {
     <div className='flex flex-col justify-center items-center space-y-6 p-10 bg-(--primary-color) text-(--text-color) lg:flex-row'>
         <div>
             <h2 className='font-bold capitalize text-2xl'>
-                New  car models in stock
+                New  gadgets in stock
             </h2>
-            <p className='font-bold capitalize text-lg'>Get the latest car models as they arrive in store. Check back regularly for new arrivals and exclusive modified car's.
+            <p className='font-bold capitalize text-lg'>Get the latest gadgets as they arrive in store. Check back regularly for new arrivals and exclusive gadgets in town.
             </p>
         </div>
 

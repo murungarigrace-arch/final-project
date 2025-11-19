@@ -1,22 +1,22 @@
 export const newProducts=[
     {
         id:1,
-        name:"ford gmc",
-        imgUrl:'https://i.pinimg.com/736x/15/81/a0/1581a084cfaae0b8b9cb16597f3957e2.jpg' //string
+        name:"Hp laptop",
+        imgUrl:'https://i.pinimg.com/1200x/ed/ae/87/edae8790e920fa5abcfbf50dcef7a848.jpg' //string
     },
      {
         id:2,
-        name:"landcrusier txl",
-        imgUrl:'https://i.pinimg.com/736x/9b/f1/53/9bf1537bc6e5564199e1f8fe02fbb502.jpg' //string
+        name:"landcrusier txlColour bizhub C360i",
+        imgUrl:'https://i.pinimg.com/736x/5a/f9/0e/5af90e38371ab412da1c4a2fd8b62871.jpg' //string
     },
      {
         id:3,
-        name:"lamboghini",
-        imgUrl:'https://i.pinimg.com/736x/93/e9/37/93e9379eb0194aba745b6b8dfa821703.jpg' //string
+        name:"Oraimo powerBank",
+        imgUrl:'https://i.pinimg.com/736x/0a/45/52/0a4552b4a7c357f75b7ec5c501a5c84d.jpg' //string
     },
        {
         id:5,
-        name:"bmw 320i",
-        imgUrl:'https://i.pinimg.com/1200x/77/71/33/7771338a3c7fe461210520ad82014209.jpg' //string
+        name:"Oraimo Watch ER",
+        imgUrl:'https://i.pinimg.com/1200x/9b/35/40/9b3540f9a430c4af2cff556ee1eabe1b.jpg' //string
     },
 ];

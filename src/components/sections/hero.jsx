@@ -12,8 +12,8 @@ export const Hero = () => {
         style={{ backgroundImage: `url(${heroProduct})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
       >
         <h2 className="text-center text-[1rem] sm:text-3xl text-(--text-color)">
-          The Perfect Blend of Performance and Practicality.!<br/>
-          Stop dreaming and start driving! This isn't just another car; it's the versatile partner you've been searching for. The [Year] [Car Make & Model] masterfully combines sleek, modern aesthetics with the day-to-day functionality your life demands. Whether you're navigating urban streets or exploring the open road, this vehicle delivers an exceptional, confident experience every time you turn the key.
+          The Perfect Blend of anystyle .!<br/>
+         change how you look with our best and affordable gadgets around you.
         </h2>
         <Btn text="shop now" className="relative z-0" />
       </div>
@@ -29,11 +29,11 @@ export const Hero = () => {
         </div>
         <div className="text-center p-4 border-r-2 border-(--text-color)">
           <h5 className="text-2xl md:text-3xl font-bold">2m+</h5>
-          <p className="text-sm md:text-base">cars sold</p>
+          <p className="text-sm md:text-base">gadgets sold</p>
         </div>
         <div className="text-center p-4">
           <h5 className="text-2xl md:text-3xl font-bold">260+</h5>
-          <p className="text-sm md:text-base">variant car models</p>
+          <p className="text-sm md:text-base">variant gadgets</p>
         </div>
       </div>
     </>
