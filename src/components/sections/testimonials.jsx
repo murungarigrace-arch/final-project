@@ -2,35 +2,30 @@ import React from 'react'
 
 export const Testimonials = () => {
   const testimonials = [
-    { name: 'Solomon K.', role: 'Manager', quote: 'Great selection and amazing customer service!' },
-    { name: 'Christopher M.', role: 'Buyer', quote: 'Quality products at unbeatable prices.' },
-    { name: 'Sally A. S.', role: 'Supplier', quote: 'I find best gadgets that my clients love.' },
+    { name: 'Peter Mwangi', role: 'Manager', quote: 'Great selection and amazing customer service!' },
+    { name: 'John K.', role: 'Buyer', quote: 'Quality products at unbeatable prices.' },
+    { name: 'Lynn .A. S.', role: 'Test driver', quote: 'I find best car experience that my clients love.' },
   ]
 
   return (
-    <section className="py-12 bg-gray-50" aria-label="Customer testimonials">
-      <div className="max-w-6xl mx-auto px-4">
-        <h2 className="text-2xl font-semibold text-center">What Our Consumers Say</h2>
-        <p className="text-center text-gray-500 mt-1 mb-6">Real reviews from happy consumers</p>
-
-        <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
-          {testimonials.map((t, i) => (
-            <article className="bg-white p-4 rounded-lg shadow" key={i}>
-              <div className="flex items-center gap-4">
-                <div className="w-12 h-12 rounded-full bg-gradient-to-r from-pink-400 via-red-400 to-yellow-400 text-white flex items-center justify-center font-bold">
-                  {t.name.split(' ').map(n => n[0]).slice(0,2).join('')}
-                </div>
-                <div>
-                  <h3 className="text-sm font-medium">{t.name}</h3>
-                  <p className="text-xs text-gray-500">{t.role}</p>
-                </div>
-              </div>
-              <p className="mt-3 text-gray-700 italic">“{t.quote}”</p>
-            </article>
-          ))}
-        </div>
+   <section>
+  <div class="flex flex-col md:flex-row justify-center items-center h-screen">
+  <div class="md:w-1/2 p-8">
+    <h1 class="text-3xl font-bold mb-4">What People Are Saying About Us</h1>
+    <div class="flex items-center mb-4">
+      <img src="https://i.pinimg.com/736x/22/5f/4c/225f4c968155fcd81cc89182f673583b.jpg" alt="Josh Smith" class="rounded-full mr-4 w-[100px]" />
+      <div>
+        <h2 class="text-lg font-bold">John Hamilton</h2>
+        <p class="text-gray-500">Manager of Sony Company</p>
       </div>
-    </section>
+    </div>
+    <p class="text-gray-700">"They are have a perfect touch for make something so professional, interest and useful for a lot of people."</p>
+  </div>
+  <div class="md:w-1/2 p-8">
+    <img src="https://i.pinimg.com/736x/e9/a5/4d/e9a54d828874900b75bb3d39279cba9b.jpg" alt="Living Room" class="w-full h-auto" />
+  </div>
+</div>
+</section>
   )
 }
 
